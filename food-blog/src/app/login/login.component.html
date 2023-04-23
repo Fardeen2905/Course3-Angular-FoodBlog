@@ -1,0 +1,24 @@
+<div class="container">
+  <h3 style="text-align:center;"><span style="color:lightslategrey">LOGIN FORM</span></h3>
+  <form>
+      <!-- <form [formGroup]="userForm" #loginForm='ngForm' (ngSubmit)="login()" (ngSubmit)="onLogin(loginForm)" novalidate> -->
+    <div class="mb-3">
+      <div class="form-group">
+        <input type="text" class="form-control" name="username" placeholder="UserName" [(ngModel)]="userObj.username" required/>
+       
+      </div>
+    </div>
+
+    <div class="mb-3">
+      <div class="form-group">
+        <input type="password" class="form-control" name="password" placeholder="Password" [(ngModel)]="userObj.password" required/>
+       
+         
+          
+        </div>
+      </div>
+    
+    <button (click)="login()" type="submit" class="btn btn-primary">Login</button>
+    <!-- <button [disabled]="!loginForm.valid" type="submit" class="btn btn-primary">Login</button> -->
+  </form>
+</div>

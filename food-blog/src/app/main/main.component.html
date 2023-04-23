@@ -1,0 +1,30 @@
+<header class="p-3 text-bg-success">
+    <div class="container">
+      <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+        <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
+          <img width="50px" src="https://w7.pngwing.com/pngs/80/950/png-transparent-computer-icons-foodie-blog-categories-miscellaneous-food-logo.png"/>
+        </a>
+        <ul  *ngIf="isLoggedIn() == true" class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+          <li><a routerLink="home" href="#" class="nav-link px-2 text-white">Home</a></li>
+          <li><a routerLink="create" href="#" class="nav-link px-2 text-white">Create</a></li>
+          <li><a routerLink="articles" href="#" class="nav-link px-2 text-white">Posts</a></li>
+          <li>
+            <button class="btn btn-md bg-danger text-white" (click)="handleLogout()">Logout</button>
+          </li>
+</ul>
+        <div *ngIf="isLoggedIn() == false" class="text-end">
+          <a routerLink="login" type="button" class="btn btn-outline-light me-2">Login</a>
+          <a routerLink="signup" type="button" class="btn btn-info">Register</a>
+        </div>
+      </div>
+    </div>
+  </header>
+  <div class="p-5 mb-4 bg-light rounded-3">
+    <div class="container-fluid py-5">
+      <router-outlet></router-outlet>
+    </div>
+  </div>
+
+
+
+ 

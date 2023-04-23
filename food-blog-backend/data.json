@@ -1,0 +1,77 @@
+{
+  "blogposts": [
+    {
+      "title": "Masala Cheese French Toast",
+      "author": "fardeen baig",
+      "image": "https://i.ndtvimg.com/i/2017-11/masala-cheese-french-toast-recipe_620x350_41509618986.jpg",
+      "blog": "Saucy bread and cheese sandwiches dipped in a herby egg white batter and pan fried. A quick and healthy option for your breakfast on-the-go or a mid night snack.",
+      "authorID": "704",
+      "id": 1
+    },
+    {
+      "title": "Chilli Gobhi",
+      "author": "deepthi",
+      "image": "https://static.toiimg.com/thumb/58376391.cms?imgsize=385325&width=800&height=800",
+      "blog": "Spice is nice. Cauliflower florets cooked with an oriental tang. A quick serving for those unannounced guests! This delightful vegetarian recipe will help keep you hunger pangs away. It has a mix of spices that will ensure your palates are satisfied. ",
+      "authorID": 702,
+      "id": 2
+    },
+    {
+      "title": "Yogurt Crunch Pudding",
+      "author": "bhargav",
+      "image": "https://static.toiimg.com/thumb/86281234.cms?width=1200&height=900",
+      "blog": "A breezy pudding to complete a lazy Sunday afternoon well spent. Impress all with this fuss free fruity dessert. What's better than having a crunchy and healthy dessert after a good meal? Nothing, we assure, as this recipe is bound to make you fall in love. ",
+      "authorID": 701,
+      "id": 3
+    },
+    {
+      "title": "Matar ke Kebab",
+      "author": "fardeen baig",
+      "image": "https://i.ytimg.com/vi/Q6W9n82aOkA/maxresdefault.jpg",
+      "blog": "A speedy appetizer for those for last minute dinner dates! Kebabs made with spinach and peas. Minimal oil is used to pan fry these green beauties.",
+      "authorID": "704",
+      "id": 4
+    },
+    {
+      "title": "Chilli Paneer Dry Recipe",
+      "author": "fardeen baig",
+      "image": "https://www.vegrecipesofindia.com/wp-content/uploads/2021/05/chilli-paneer-recipe-03.jpg",
+      "blog": "Chilli paneer is is a popular restaurant style Indo-Chinese starter that is great for dinner parties with friends and family. A spicy, tangy paneer recipe that is made from paneer, cornflour, black pepper, maida, onion, green capsicum, et al and cooked to perfection. ",
+      "authorID": 704,
+      "id": 5
+    }
+  ],
+  "accounts": [
+    {
+      "id": 701,
+      "name": "fardeen",
+      "username": "fardeen",
+      "email": "fmahammad@teksystems.com",
+      "password": "123456"
+    },
+    {
+      "name": "fardeen",
+      "username": "fardeen",
+      "email": "",
+      "phone": "",
+      "password": "123",
+      "id": 702
+    },
+    {
+      "name": "rajesh",
+      "username": "rajesh",
+      "email": "abc@gmail.",
+      "phone": "",
+      "password": "123",
+      "id": 703
+    },
+    {
+      "name": "fardeen baig",
+      "username": "fardeenbaig",
+      "email": "",
+      "phone": "",
+      "password": "farde",
+      "id": 704
+    }
+  ]
+}
